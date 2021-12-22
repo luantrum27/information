@@ -1,0 +1,40 @@
+/* Navbar */
+.nav{
+    min-height: 42px;
+    background-color: #ef5122;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list{
+    padding-left: 0;
+    margin: auto 16px;
+}
+
+.nav-item{
+    color: white;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+}
+/* form layout */
+.form_container{
+    max-width: 720px;
+    padding: 32px;
+    margin: 36px auto 0 auto;
+    background-color: black;
+}
+
+.form_row{
+    padding: 8px 0;
+    display: flex;
+}
+
+.form_label{
+min-width: 90px;
+color: white;
+}
+
+.form_input{
+    flex: 1;
+}
